@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import Carousel from './components/Carousel'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Chat from './components/Chat'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <AboutMe/>
       <Carousel/>
       <Contact/>
+      <Chat/>
       <Footer/>
     </div>
   )

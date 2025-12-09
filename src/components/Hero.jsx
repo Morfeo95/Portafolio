@@ -52,7 +52,7 @@ function Hero() {
                             <div>
                                 <AnimatePresence>
                                     <motion.p
-                                    className="m-4 md:w-3xl relative overflow-hidden font-montserrat text-left md:text-xl text-[#F5F5F7] text-md w-fit"
+                                    className="m-4 md:w-3xl relative overflow-hidden font-montserrat text-left md:text-xl text-[#F5F5F7] text-xs w-fit"
                                     initial={{ scale: 0.5, opacity: 0 }}
                                     animate={{ scale: 1, opacity: 1 }}
                                     transition={{ duration: 0.5 }}
@@ -81,7 +81,7 @@ function Hero() {
                         )
                     }
                 </div>
-                <div className="flex pl-32 gap-32 relative z-10">
+                <div className="flex m-5 pl:12 md:pl-32 gap-5 md:gap-32 text-sm md:text-md relative z-10">
                     <a href="#contacto"><Button>Contacto</Button></a> <a href="#portafolio"><Button>Mis Proyectos</Button></a>
                 </div>
             </motion.section>
