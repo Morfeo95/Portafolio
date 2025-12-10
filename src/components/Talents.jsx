@@ -27,7 +27,7 @@ const iconComponents = {
 
 function Talents() {
     return (
-        <section className='font-motserrat m-5 text-2xl w-full flex flex-col justify-center items-center'>
+        <section className='font-motserrat text-2xl w-full flex flex-col justify-center items-center p-2'>
             <h2 className="text-6xl font-signika text-[#7BAA8F] text-center mb-12">Habilidades Técnicas</h2>
             <div className="flex flex-wrap justify-center items-center gap-8">
                 {skillsData.map((item, index) => (
@@ -41,6 +41,7 @@ function Talents() {
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         whileHover="hover"
+                        whileTap="hover"
                         animate="rest"
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                         viewport={{ once: true }}

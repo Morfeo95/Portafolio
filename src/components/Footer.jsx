@@ -3,8 +3,8 @@ import { FileUser, Github, Linkedin, Mail } from "lucide-react";
 function Footer(){
 
     return(
-        <footer className="flex justify-between md:justify-around w-full bg-[#2C2C2E] font-titilium uppercase text-[#F5F5F7] text-xs md:text-md lg:text-lg">
-            <ul className="ml-10">
+        <footer className="flex p-2 justify-around md:justify-around w-full bg-[#2C2C2E] font-titilium md:uppercase text-[#F5F5F7] text-xs md:text-md lg:text-lg">
+            <ul className="md:ml-10">
                 <li className="flex items-center gap-3 hover:text-[#7BAA8F]">
                    <a href="mailto:francisco.vera.95@gmail.com"><Mail size={18} /></a> francisco.vera.95@gmail.com
                 </li>

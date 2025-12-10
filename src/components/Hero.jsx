@@ -23,7 +23,7 @@ function Hero() {
         <>
             <motion.section
                 style={{ height: smoothHeight, top: 0 }}
-                className="bg-[#1A1A1A] text-[#F5F5F7] relative overflow-hidden">
+                className="p-2 bg-[#1A1A1A] text-[#F5F5F7] relative overflow-hidden">
                 <div className="flex justify-start overflow-hidden">
                     <img src="/img/trique.png" alt="" className="absolute start-0 inset-0 object-cover w-full h-full z-0 overflow-hidden md:start-96" />
                 </div>
