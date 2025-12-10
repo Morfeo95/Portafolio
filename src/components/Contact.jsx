@@ -34,7 +34,7 @@ function Contact() {
     const particles = useState(generateParticles);
 
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         const datosContacto = {
@@ -46,7 +46,21 @@ function Contact() {
         };
         const json = JSON.stringify(datosContacto);
 
-        console.log(json);
+        const res = await fetch("https://formspree.io/f/xblnzwzv", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: json
+        });
+
+        if (res.ok){
+            alert("Mesaje enviado correctamente")
+        }
+
+        else{
+            alert("Error al enviar el mensaje")
+        }
     };
 
 
