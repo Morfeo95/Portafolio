@@ -70,17 +70,17 @@ function Card({ imagenUrl, titulo, descripcion, tecnologias, urlDemo, urlCodigo 
                 >◉{tech}</span>
                 ))}
             </div>
-            <div className="flex justify-between mr-8 ml-8 mb-2 mt-3 font-signika text-sm text-center text-[#2C2C2E]">
-                {urlDemo && <div className="flex items-center gap-2 p-1 rounded-full bg-[#7BAA8F] hover:scale-110">
+            <div className="flex justify-between mr-8 ml-8 mb-2 mt-3 font-signika text-sm text-center text-[#2C2C2E] gap-1">
+                {urlDemo && <div className="flex items-center gap-2 p-2 rounded-full bg-[#7BAA8F] hover:scale-110">
                     <Globe/>
                     <a href={urlDemo}>
-                    Ver Demo</a>
+                    Demo</a>
                 </div>
                 }
-                {urlCodigo && <div className="flex items-center gap-2 p-1 rounded-full bg-[#7BAA8F] hover:scale-110">
+                {urlCodigo && <div className="flex items-center gap-2 p-2 rounded-full bg-[#7BAA8F] hover:scale-110">
                     <Github />
                     <a href={urlCodigo}>
-                    Ver Codigo Fuente</a>
+                    Codigo Fuente</a>
                 </div>
 
                 }
