@@ -33,7 +33,7 @@ function Talents() {
                 {skillsData.map((item, index) => (
                     <motion.article 
                         key={item.id}
-                        className='md:flex md:flex-col justify-center items-center relative lg:h-98 lg:w-85
+                        className='md:flex md:flex-col justify-center items-center relative lg:h-68 lg:w-55
                          text-[#7BAA8F] shadow-[3px_3px_5px_#7BAA8F] p-8 rounded-lg border-2 border-[#7BAA8F]
                          hover:border-[#4A90E2] hover:text-[#4A90E2] hover:scale-110 hover:-translate-y-2 hover:shadow-[8px_8px_10px_#4A90E2]
                          transition-all duration-300 w-42 h-49'
@@ -50,7 +50,7 @@ function Talents() {
                             {iconComponents[item.icon]}
                         </div>
                         <div className='absolute left-3'>
-                        <motion.h3 className="lg:text-5xl font-signika mt-4 mb-2 text-2xl"
+                        <motion.h3 className="lg:text-4xl font-signika mt-4 mb-2 text-2xl"
                         variants={textVariants}
                         transition={{duration: 0.3, delay: 0.2}}
                         >{item.category}</motion.h3>

@@ -45,29 +45,36 @@ function Hero() {
                         repeatDelay: 1.5
                     }}
                 >Francisco Xavier Vera Fabila.</motion.strong> </h2>
-                <h2 className="relative z-10 pl-4 font-montserrat text-2xl">Desarrollador Backend (Java & Spring Boot).</h2>
+                <h2 className="relative z-10 pl-4 font-montserrat text-2xl">Desarrollador FullStack (Java, Spring Boot & React).</h2>
                 <div>
                     {
                         isTextDisplayed ? (
                             <div>
                                 <AnimatePresence>
                                     <motion.p
-                                    className="m-4 md:w-3xl relative overflow-hidden font-montserrat text-left md:text-xl text-[#F5F5F7] text-xs w-fit"
-                                    initial={{ scale: 0.5, opacity: 0 }}
-                                    animate={{ scale: 1, opacity: 1 }}
-                                    transition={{ duration: 0.5 }}
-                                    exit={{scale:0.5, opacity:0}}
-                                    viewport={{ once: true }}
-                                >
-                                    Soy un desarrollador backend especializado en Java y Spring Boot, apasionado por crear sistemas seguros, escalables y elegantes.
-                                    A lo largo de mi trayectoria he diseñado <strong className='text-[#7BAA8F]'>APIs RESTful</strong>, optimizado bases de datos y aplicado principios de ciberseguridad y arquitectura limpia para ofrecer soluciones sólidas y confiables.
+                                        className="m-4 md:w-3xl relative overflow-hidden font-montserrat text-left md:text-xl text-[#F5F5F7] text-xs w-fit leading-relaxed"
+                                        initial={{ scale: 0.5, opacity: 0 }}
+                                        animate={{ scale: 1, opacity: 1 }}
+                                        transition={{ duration: 0.5 }}
+                                        exit={{ scale: 0.5, opacity: 0 }}
+                                        viewport={{ once: true }}
+                                    >
+                                        Soy desarrollador <strong className="text-[#7BAA8F]">Full Stack</strong> con una base sólida en backend, especializado en Java y Spring Boot, enfocado en construir aplicaciones seguras, escalables y bien estructuradas.
+                                        A lo largo de mi trayectoria he diseñado <strong className="text-[#7BAA8F]">APIs RESTful</strong>, optimizado bases de datos relacionales y aplicado principios de arquitectura limpia y ciberseguridad para ofrecer soluciones confiables y mantenibles.
+                                        
+                                        <br />
 
-                                    Me guía una filosofía de equilibrio entre precisión técnica y claridad humana: escribir código que no solo funcione, sino que comunique orden, justicia y propósito.
+                                        Creo en el equilibrio entre rigor técnico y claridad humana: escribir código que no solo funcione, sino que sea legible, coherente y fácil de evolucionar en equipo.
 
-                                    Además de mi experiencia en backend, disfruto aprender y aplicar nuevas tecnologías, integrar prácticas <strong className='text-[#7BAA8F]'>DevSecOps</strong> y colaborar con equipos multidisciplinarios para convertir ideas en productos reales.
+                                        <br />
 
-                                    Cada proyecto —desde plataformas educativas como Bach hasta herramientas empresariales como <strong className='text-[#7BAA8F]'>EasyBiz</strong>— representa un paso más en mi búsqueda por unir la eficiencia del código con la sabiduría del diseño.
-                                </motion.p>
+                                        Además del backend, disfruto trabajar el frontend, consumir APIs, cuidar la experiencia del usuario y participar en despliegues modernos, integrando prácticas de <strong className="text-[#7BAA8F]">DevSecOps</strong> y colaboración multidisciplinaria.
+
+                                        <br />
+
+                                        Cada proyecto —desde plataformas educativas como <strong className="text-[#7BAA8F]">Bach</strong> hasta herramientas empresariales como <strong className="text-[#7BAA8F]">EasyBiz</strong>— representa un paso más en mi búsqueda por unir ingeniería, diseño y propósito en productos reales.
+                                    </motion.p>
+
                                 </AnimatePresence>
                                 <div className="bg-[#7BAA8F] rounded-full w-fit p-2 items-center ml-12 z-10 relative">
                                     <ChevronUp onClick={() => setIsTextDisplayed(false)} />
