@@ -41,7 +41,7 @@ const ProyectosData = [
     imagenUrl: "./img/Portafolio.png",
     descripcion: "Portafolio interactivo desarrollado en React y Vite, con animaciones de Motion, íconos de Lucide y diseño moderno en TailwindCSS. Incluye integración con proyectos destacados y perfil profesional.",
     tecnologias: ["React", "Vite", "TailwindCSS", "Motion", "Lucide"],
-    urlDemo: "",
+    urlDemo: "https://portafolio-hazel-phi.vercel.app/",
     urlCodigo: "https://github.com/Morfeo95/Portafolio"
 }
 
