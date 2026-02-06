@@ -73,13 +73,13 @@ function Card({ imagenUrl, titulo, descripcion, tecnologias, urlDemo, urlCodigo 
             <div className="flex justify-between mr-8 ml-8 mb-2 mt-3 font-signika text-sm text-center text-[#2C2C2E] gap-1">
                 {urlDemo && <div className="flex items-center gap-2 p-2 rounded-full bg-[#7BAA8F] hover:scale-110">
                     <Globe/>
-                    <a href={urlDemo}>
+                    <a href={urlDemo} target="_blank">
                     Demo</a>
                 </div>
                 }
                 {urlCodigo && <div className="flex items-center gap-2 p-2 rounded-full bg-[#7BAA8F] hover:scale-110">
                     <Github />
-                    <a href={urlCodigo}>
+                    <a href={urlCodigo} target="_blank">
                     Codigo Fuente</a>
                 </div>
 
