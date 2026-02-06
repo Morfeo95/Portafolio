@@ -47,14 +47,12 @@ const ProyectosData = [
 {
     id: 6,
     titulo: "Catálogo Inmobiliario",
-    imagenUrl: "./img/CatalogoInmobiliario.png",
+    imagenUrl: "./img/Catalogo.png",
     descripcion: "Catálogo inmobiliario web diseñado para mostrar propiedades de forma clara y profesional. Permite gestionar casas mediante archivos JSON, visualización con carrusel de imágenes, ficha detallada, mapa integrado de Google Maps y edición de registros con subida de imágenes a Cloudinary. Pensado como base para un futuro SaaS inmobiliario.",
     tecnologias: [
         "React",
         "Vite",
         "TypeScript",
-        "TailwindCSS",
-        "Motion",
         "Cloudinary",
         "JSON"
     ],
