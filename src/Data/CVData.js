@@ -1,38 +1,47 @@
 const CVData = [
   {
     cv: `
-Backend Developer (Java/Spring Boot). Experiencia en APIs REST, bases de datos, seguridad (JWT/BCrypt) y arquitectura.
+Backend Engineer con enfoque en automatización mediante IA. Experiencia en integración de LLMs en flujos de negocio, desarrollo de APIs REST con Java y Spring Boot, y diseño de sistemas seguros y escalables.
 
 FORMACIÓN
-- OCI Foundations (2025)
-- IA Generativa Oracle (2025)
-- Google Ciberseguridad (2024)
-- ONE Backend (2024)
+- Bachillerato General (CENEVAL, Acuerdo 286)
+- OCI Foundations Associate (2025)
+- Oracle: Inteligencia Artificial Generativa (2025)
+- Google Career Certificate: Ciberseguridad (2024)
+- ONE: Desarrollador Backend (2024)
 
 EXPERIENCIA
-Gerente Auxiliar – Empresa de telecomunicaciones (2019–actual)
-- Gestión de clientes, análisis, documentación, soporte y capacitación.
+Gerente Auxiliar – Telecomunicaciones (2019–actual)
+- Gestión de cartera de clientes, análisis de datos y apoyo a toma de decisiones.
+- Procesamiento de información, control documental y capacitación de personal.
+- Participación en procesos de reclutamiento y supervisión operativa.
 
-Gerente de Zona – Empresa de servicios (2017–2018)
-- Liderazgo de ventas, métricas, logística y operaciones.
+Gerente de Zona – Servicios (2017–2018)
+- Liderazgo de equipos, métricas de desempeño y optimización de operaciones.
+- Coordinación logística, análisis de resultados y mejora de procesos.
 
 HABILIDADES TÉCNICAS
-Java, Spring Boot, SQL, MySQL, PostgreSQL
-Seguridad: JWT, BCrypt, OWASP
-DevOps: Docker, Maven
-Python (Pandas, NumPy, Matplotlib)
-Testing: JUnit
-Frontend : React, TailwindCSS, Vite, Framer Motion
+IA & Automatización:
+- LLMs (Gemini), Prompt Engineering, NotebookLM
+- Automatización de flujos inteligentes
+- Python (Pandas, NumPy, Matplotlib)
+
+Backend & Arquitectura:
+- Java, Spring Boot, APIs REST, microservicios
+- JavaScript
+
+Datos & Seguridad:
+- MySQL, PostgreSQL, SQL
+- JWT, BCrypt, OWASP
+- Docker
 
 HABILIDADES BLANDAS
-Análisis, comunicación, autonomía, adaptabilidad, trabajo en equipo, Ingles B2.
+Pensamiento analítico, comunicación efectiva, autonomía, adaptabilidad, trabajo en equipo. Inglés B2.
 
 PROYECTOS DESTACADOS
-- Plataforma e-learning (Java/Spring/PostgreSQL)
-- Plataforma musical con chat y seguridad (Java/MySQL)
-- API de gestión de libros
-- Foros con autenticación JWT
-- App de cotizaciones para negocios
+- Copiloto con IA para evaluación de compatibilidad CV–Vacante (LLMs, scoring y feedback técnico).
+- Plataforma e-learning segura y escalable (Java, Spring Boot, PostgreSQL).
+- Plataforma educativa musical con chat y control de accesos (Java, MySQL).
 `
   }
 ];
